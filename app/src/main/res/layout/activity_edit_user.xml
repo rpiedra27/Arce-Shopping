@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ucr.example.arce.activities.EditUserActivity">
+
+    <EditText
+        android:id="@+id/EditName"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="38dp"
+        android:hint="@string/Nombre"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/EditIdentification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewEditUser" />
+
+    <EditText
+        android:id="@+id/EditIdentification"
+        android:layout_width="297dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="44dp"
+        android:hint="@string/ID"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/EditMail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditName" />
+
+    <EditText
+        android:id="@+id/EditMail"
+        android:layout_width="294dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="56dp"
+        android:hint="@string/Correo"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEditUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditIdentification" />
+
+    <TextView
+        android:id="@+id/TextViewEditUser"
+        android:layout_width="291dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="46dp"
+        android:text="Editar Usuario"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/EditName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEditUser"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="245dp"
+        android:text="Actualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditMail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

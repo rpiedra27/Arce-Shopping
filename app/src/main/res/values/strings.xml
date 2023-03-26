@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Arce Shopping</string>
+    <string name="ID">Identificación</string>
+    <string name="Nombre">Nombre Completo</string>
+    <string name="Correo">Correo Electrónico</string>
+    <string name="Edad">Edad</string>
+    <string name="Provincia">Provincia Actual</string>
+    <string name="Provincias">dropDownMenuExample</string>
+    <string name="title_register">Registro</string>
+    <string name="registrarse">Registrarse</string>
+    <string-array name="ProvinciasNames">
+        <item>San Jose</item>
+        <item>Alajuela</item>
+        <item>Cartago</item>
+        <item>Heredia</item>
+        <item>Guanacaste</item>
+        <item>Puntarenas</item>
+        <item>Limon</item>
+    </string-array>
+    <string name="category_request">https:\/\/dummyjson.com\/products\/categories</string>
+    <string name="category_products_request">https:\/\/dummyjson.com\/products\/category\/</string>
+    <string name="JSON_URL">https:\/\/dummyjson.com\/products</string>
+    <string name="cat_dialog_title">Filtrar por categoría</string>
+    <string name="positive_category_btn">filtrar</string>
+    <string name="negative_category_btn">cancelar</string>
+    <string name="category_arg">categories</string>
+    <string name="storeTag">Tienda</string>
+    <string name="category_option_all">Todos los productos</string>
+    <string name="inicio_sesion">Inicio Sesión</string>
+    <string name="boton_registro">Registro</string>
+    <string name="todo">TODO</string>
+    <string name="FiltrarText">Filtrar</string>
+    <string name="StringProducto">Producto</string>
+    <string name="StringPrecio">Precio</string>
+    <string name="StringDescripcion">Descripcion</string>
+    <string name="StringCategoria">Categoria</string>
+    <string name="StringComprar">Comprar</string>
+    <string name="StringAumentar">+</string>
+    <string name="StringDecrementar">-</string>
+    <string name="StringCantidad">0</string>
+    <string name="title_profile">Perfil</string>
+    <!--<string name="title_log_in">Inicio Sesión</string>-->
+    <!--<string name="title_register">Registro</string>-->
+    <string name="title_shop">Tienda</string>
+
+    <string name="cart_history_btn">Historial de compras</string>
+    <string name="cart_total">Total: $</string>
+    <string name="cart_cancel_btn">Borrar</string>
+    <string name="cart_confirm_btn">Comprar</string>
+    <string name="user_frag_label">Mi perfil</string>
+    <string name="store_frag_label">Tienda</string>
+    <string name="cart_frag_label">Mi carrito</string>
+    <string name="msg_confirm_purchase">Compra realizada</string>
+    <string name="msg_clear_cart">Se borraron los artículos del carrito</string>
+    <string name="msg_no_inventory">No existe suficiente inventario</string>
+    <string name="pass_change_success">¡Se cambió la contraseña con éxito!</string>
+    <string name="pass_not_equal">Las contraseñas no son iguales</string>
+    <string name="buttonAux">ButtonStore</string>
+    <string name="forgot_pass_title">¿Olvidó su contraseña?</string>
+    <string name="change_pass_title">Cambiar mi contraseña</string>
+    <string name="hint_enter_new_pass">Ingrese su nueva contraseña</string>
+    <string name="hint_repeat_pass">Repita la contraseña</string>
+    <string name="OK">Aceptar</string>
+    <string name="pass_too_short">La contraseña debe tener al menos 8 dígitos</string>
+    <string name="hint_enter_email_forgot">Ingrese el correo electrónico de su cuenta</string>
+    <string name="change_pass_btn">Solicitar cambio</string>
+    <string name="login_title">Inicio de sesión</string>
+    <string name="hint_enter_email">Ingrese su correo electrónico</string>
+    <string name="hint_enter_pass">Ingrese su contraseña</string>
+    <string name="login_btn">Ingresar</string>
+    <string name="hint_birth_date">Ingrese su fecha de nacimiento</string>
+    <string name="get_location_btn">Obtener ubicación actual</string>
+    <string name="details">Ver detalles</string>
+    <string name="share">Compartir</string>
+    <string name="shopping_history_title">Historial de compras</string>
+    <string name="shopping_history_details_title">Detalles de tu compra</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_store">
+    <fragment android:id="@+id/navigation_user"
+        android:name="ucr.example.arce.fragments.UserFragment"
+        android:label="@string/user_frag_label"
+        tools:layout="@layout/fragment_user" />
+    <fragment android:id="@+id/navigation_store"
+        android:name="ucr.example.arce.fragments.StoreFragment"
+        android:label="@string/store_frag_label"
+        tools:layout="@layout/fragment_store" />
+    <fragment android:id="@+id/navigation_cart"
+        android:name="ucr.example.arce.fragments.CartFragment"
+        android:label="@string/cart_frag_label"
+        tools:layout="@layout/fragment_cart"/>
+</navigation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navigation_user"
+        android:icon="@drawable/baseline_person_black_24"
+        android:title="Perfil" />
+    <item android:id="@+id/navigation_store"
+        android:icon="@drawable/baseline_shopping_bag_black_24"
+        android:title="Tienda" />
+    <item android:id="@+id/navigation_cart"
+        android:icon="@drawable/baseline_shopping_cart_black_24"
+        android:title="Carrito" />
+</menu>
